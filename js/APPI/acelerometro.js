@@ -2,7 +2,7 @@ var ac = {
     watchID: null,
     options: {frecuency:500},
     init: function(){
-//        alert("Iniciar");
+        alert("Iniciar");
         if(!ac.watchID)
             ac.watchID = navigator.accelerometer.watchAcceleration(ac.success, ac.error, ac.options);
     },
