@@ -5,6 +5,7 @@ var jQT = new $.jQTouch({
 var fn = {
     ready: function(){
 		document.addEventListener("deviceReady",fn.init,false);  
+    },
     init: function () {
         $('#acelerometro .individual li').tap(fn.acTap);
         $('#brujula .individual li').tap(fn.brTap);
