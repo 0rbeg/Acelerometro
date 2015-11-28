@@ -13,7 +13,7 @@
         <name>geoApp</name>
 
         <description>
-            Aplicación de prueba de la geolocalizacion. 
+            Aplicación de prueba del acelerometro y la brújula 
         </description>
 
         <author href="http://igitsoft.com" email="info@igitsoft.com">
