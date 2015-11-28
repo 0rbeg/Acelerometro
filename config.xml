@@ -2,13 +2,13 @@
     <widget xmlns = "http://www.w3.org/ns/widgets"
 
         xmlns:gap   = "http://phonegap.com/ns/1.0"
-        id          = "mx.cenet.geoAPP"
+        id          = "mx.cenet.acelerometroAPP"
         version     = "1.0.0"
         versionCode = "1" >
 
         <!-- versionCode is optional and Android only -->
 
-        <preference name="geoAPP-version" value="3.7.0" />
+        <preference name="AcelerometroAPP-version" value="3.7.0" />
 
         <name>geoApp</name>
 
