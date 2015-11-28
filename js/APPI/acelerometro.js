@@ -4,7 +4,7 @@ var ac = {
     init: function(){
 //        alert("Iniciar");
         if(!ac.watchID)
-            ac.watchID = navigator.accelerometer.watchAcceleration(ac.uccess, ac.error, ac.options);
+            ac.watchID = navigator.accelerometer.watchAcceleration(ac.success, ac.error, ac.options);
     },
     stop: function(){
         //alert("detener");
