@@ -23,5 +23,6 @@
         <icon src="img/icon.png" />
         <!--Plugings-->
         <gap:plugin name="org.apache.cordova.device-motion" /> 
+        <gap:plugin name="org.apache.cordova.device-orientation" />
         
 </widget>
