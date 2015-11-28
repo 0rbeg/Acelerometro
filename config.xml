@@ -22,6 +22,6 @@
         
         <icon src="img/icon.png" />
         <!--Plugings-->
-        <gap:plugin name="org.apache.cordova.accelerometer" /> 
+        <gap:plugin name="org.apache.cordova.device-motion" /> 
         
 </widget>
