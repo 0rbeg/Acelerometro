@@ -16,9 +16,8 @@ var ac = {
         
     },
     success: function(a){
-		$('#acelerometro .scroll h2').html('X: ' + a.x +
-										   'Y: ' + a.y +
-										   'Z: ' + a.z);
+        alert("exito");
+		$('#acelerometro .scroll h2').html('X: ' + a.x +'Y: '+ a.y +'Z: ' + a.z);
 	},
 	error: function(err){
 		alert(err.code);
