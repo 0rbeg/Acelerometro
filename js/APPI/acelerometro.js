@@ -7,7 +7,7 @@ var ac = {
             ac.watchID = navigator.accelerometer.watchAcceleration(ac.success, ac.error, ac.options);
     },
     stop: function(){
-        //alert("detener");
+        alert("detener");
         if(ac.watchID != null){
 			navigator.accelerometer.clearWatch(ac.watchID);
             ac.watchID = null;
@@ -17,7 +17,7 @@ var ac = {
     },
     success: function(a){
         alert("exito");
-		$('#acelerometro .scroll h2').html('X: ' + a.x +'Y: '+ a.y +'Z: ' + a.z);
+		$('#acelerometro .scroll h2').html('X: ' + a.x +'-Y: '+ a.y +'-Z: ' + a.z);
 	},
 	error: function(err){
 		alert(err.code);
